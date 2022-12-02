@@ -15,4 +15,9 @@
     <string name="_0">0</string>
     <string name="dot">.</string>
     <string name="ravno">=</string>
+    <string name="product_category">Product Category</string>
+    <string name="productcategory">Product Category</string>
+    <string name="origin_country">Origin Country</string>
+    <string name="policy">Policy</string>
+    <string name="brand">Brand</string>
 </resources>

@@ -6,9 +6,23 @@
     android:layout_height="match_parent"
     android:background="@color/black"
     tools:context=".MainActivity">
+    <Button
+        android:visibility="gone"
+        android:id="@+id/clickOnMe"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="click on me!!"
+        android:textStyle="bold"
+        android:backgroundTint="@color/light_red"
+        android:onClick="click0nme"
+        >
 
-
+    </Button>
     <FrameLayout
+
         app:layout_constraintTop_toTopOf="parent"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -27,6 +41,7 @@
             android:textSize="80sp">
 
         </TextView>
+
 
     </FrameLayout>
 
@@ -287,10 +302,12 @@
 
 
             <com.google.android.material.button.MaterialButton
+
                 android:id="@+id/ravno"
                 style="@style/Orange.Button"
                 android:text="@string/ravno"
                 android:onClick="onOperationClick"
+
                 >
 
             </com.google.android.material.button.MaterialButton>
@@ -300,5 +317,6 @@
 
 
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
